@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50x;
+  margin-left: 60px;
+}
+.right-side {
+  margin-top: 20px;
+}
+.left-side {
+  background-color: #3c3c3e;
+  margin: 0 100px 0 100px;
+  height: 111vh;
+  width: 300px;
+  gap: 300px;
+}
+h1 {
+  color: azure;
+  margin-bottom: 30px;
+}
+p {
+  font-weight: 300;
+  color: azure;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  --bg: azure;
+  --text-color: #000000;
+  position: relative;
+  width: 150px;
+  border: none;
+  background: var(--bg);
+  color: var(--text-color);
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+  border-radius: 5px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  box-shadow: rgb(0, 0, 0) 0px 7px 2px, #000 0px 8px 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.time {
+  margin-left: 530px;
+}
+
+button:active {
+  top: 4px;
+  box-shadow: #000000 0px 3px 2px, #000 0px 3px 5px;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 20px;
+}
+.contact {
+  border-radius: 53px 137px 5px 89px;
+  -webkit-border-radius: 53px 137px 5px 89px;
+  -moz-border-radius: 53px 137px 5px 89px;
+  background-color: azure;
+  height: 190px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  color: #3c3c3e;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: -10px;
+}
+.skill-container {
+  margin-bottom: 20px;
+}
+.skill-name {
+  margin-bottom: 5px;
+}
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.progress {
+  width: 80%; /* Adjust percentage for each skill */
+  background-color: blue;
+  height: 10px;
+  border-radius: 5px;
+}
+.bth p {
+  color: #282c34;
+  margin-top: 35px;
+}
+
+.abt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.abt p {
+  width: 500px;
+  color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
