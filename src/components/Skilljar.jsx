@@ -1,6 +1,6 @@
 import React from "react";
 
-function SkillComponent({ name, width }) {
+function Skilljar({ name, width }) {
   return (
     <div className="skill-container">
       <p className="skill-name">{name}</p>
@@ -11,4 +11,4 @@ function SkillComponent({ name, width }) {
   );
 }
 
-export default SkillComponent;
+export default Skilljar;
